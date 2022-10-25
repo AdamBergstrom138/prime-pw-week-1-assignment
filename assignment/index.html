@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Change the <title> from "Page Title" to "Hello World" -->
     <title>Hello World</title>
+    <link rel="stylesheet" href="style.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
@@ -12,17 +13,25 @@
 <body>
     <!-- Create a header element  -->
     <header>
+        <div class="header"></div>
     <!-- Inside the header, add an <h1> element containing your name -->
-        <h1>Adam Bergstrom</h1>
-    <!-- Include an image -->
-        <img src="adamAndMarcy.jpg" alt="Adam and Marcy" width="689" height="580">
-    <!-- Create an unordered list with 3 list items of fun facts about you -->
-        <ul>
-            <li>I have 2 different colored eyes.</li>
-            <li>I was born on June 21st the summer solstice and Gemini-Cancer cusp.</li>
-            <li>I'm from International Falls, MN aka Frostbite Falls from Rocky and Bullwinkle.</li>
-        </ul>
+            <div class="headerContent">
+                <h1>Adam Bergstrom</h1>
+            </div> 
+        </div>
     </header>
+    <!-- Include an image -->
+        <div class="picture">
+            <img src="adamAndMarcy.jpg" alt="Adam and Marcy" width="689" height="580">
+        </div>
+    <!-- Create an unordered list with 3 list items of fun facts about you -->
+        <div class="funfacts">
+            <ul>
+                <li>I have 2 different colored eyes.</li>
+                <li>I was born on June 21st the summer solstice and Gemini-Cancer cusp.</li>
+                <li>I'm from International Falls, MN aka Frostbite Falls from Rocky and Bullwinkle.</li>
+            </ul>
+        </div>
     <!-- Create a footer element -->
     <footer>
     <!-- Inside your footer, put a <p> element with your favorite quote -->
