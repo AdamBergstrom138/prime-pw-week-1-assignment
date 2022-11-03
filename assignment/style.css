@@ -32,7 +32,7 @@ p{
     font-style: italic;
 }
 /* Put a border around your image */
-.picture {
+img {
     margin-top: 20px;
     margin-left: 20px;
     line-height: 0;
